@@ -1,0 +1,13 @@
+com\nec\edgedisplay\services\test\ClipServiceTest.class
+com\nec\edgedisplay\services\test\ZipServiceTest.class
+com\nec\edgedisplay\services\test\FactServiceTest.class
+com\nec\edgedisplay\services\test\ClipServiceTest$1.class
+com\nec\edgedisplay\util\test\UtilTest.class
+com\nec\edgedisplay\services\test\RuleOverrideServiceTest.class
+com\nec\edgedisplay\services\test\FactServiceTest$1.class
+com\nec\edgedisplay\services\test\ClipServiceTest$2.class
+com\nec\edgedisplay\zmqsub\app\ZMQSubscriberAppTest.class
+com\nec\edgedisplay\services\test\FactServiceTest$2.class
+com\nec\edgedisplay\services\test\DemographicTriggerServiceTest.class
+com\nec\edgedisplay\services\test\AIServiceTest.class
+com\nec\edgedisplay\services\test\TriggerServiceTest.class

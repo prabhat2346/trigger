@@ -1,0 +1,39 @@
+(defrule #messageName
+(A ?A)
+  (weather ?weather)
+  (age ?age)
+  (gender ?gender)
+  (player ?player)
+  (temp   ?temp)
+  (event   ?event)
+  
+=>
+    (bind ?w_per #w_per)
+    (bind ?a_per #a_per)
+    (bind ?g_per #g_per)
+    (bind ?t_per #t_per)
+    (bind ?e_per #e_per)
+
+(if (eq ?player #player)
+     then
+	(if #weather
+		then
+		(bind ?A (+ ?A ?w_per)))
+	(if #age
+		then
+		(bind ?A (+ ?A ?a_per)))
+	(if #gender
+		then
+		(bind ?A (+ ?A ?g_per)))
+	(if #temp
+		then
+		(bind ?A (+ ?A ?t_per)))
+	(if #event
+		then
+		(bind ?A (+ ?A ?e_per)))	
+)	
+ 
+(max1 #messageId ?A)
+
+)
+

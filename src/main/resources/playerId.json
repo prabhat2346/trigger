@@ -1,0 +1,16 @@
+[
+	{
+		"playerId": "s2",
+		"CmsPlayerId": "5ba8914f77ef23318bd5581b",
+		"CmsPlayerType": "Stratos",
+		"ipAddress": "",
+		"port": 0
+	},
+	{
+		"playerId": "s10",
+		"CmsPlayerId": "",
+		"CmsPlayerType": "BrightSign",
+		"ipAddress": "http://192.168.17.18",
+		"port": 6200
+	}
+]

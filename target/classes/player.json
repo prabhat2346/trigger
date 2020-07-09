@@ -1,0 +1,164 @@
+[
+	{
+		"playerId": "5abbcf2677ef231eb66fcd43",
+		"playerType": "",
+		"messageList": [
+			{
+				"messageId": "1779",
+				"messageName": "Male Message",
+				"messageDistId": "1779",
+				"cmsMessageId": "5ba9e32b77ef233174d55a84",
+				"duration": 5,
+				"messageInfo": {
+					"age": "0 to 22",
+					"ageWeightage": "40",
+					"gender": "MALE",
+					"genderWeightage": "30",
+					"weather": "Clear",
+					"weatherWeightage": "30"
+				}
+			},
+			{
+				"messageId": "1777",
+				"messageName": "FEMale Message",
+				"messageDistId": "1780",
+				"cmsMessageId": "5ba9e32b77ef233174d55a84",
+				"duration": 5,
+				"messageInfo": {
+					"age": "22 to 28",
+					"ageWeightage": "40",
+					"gender": "FEMALE",
+					"genderWeightage": "30",
+					"weather": "Clear",
+					"weatherWeightage": "30"
+				}
+			},
+			{
+				"messageId": "1780",
+				"messageName": "FEMale Message",
+				"messageDistId": "1751",
+				"cmsMessageId": "5ba9e32b77ef233174d55a84",
+				"duration": 5,
+				"messageInfo": {
+					"age": "28 to 35",
+					"ageWeightage": "40",
+					"gender": "FEMALE",
+					"genderWeightage": "30",
+					"weather": "Clear",
+					"weatherWeightage": "30"
+				}
+			},
+			{
+				"messageId": "1781",
+				"messageName": "Male Message",
+				"messageDistId": "1756",
+				"cmsMessageId": "5ba9e32b77ef233174d55a84",
+				"duration": 5,
+				"messageInfo": {
+					"age": "35 to 45",
+					"ageWeightage": "40",
+					"gender": "MALE",
+					"genderWeightage": "30",
+					"weather": "Clear",
+					"weatherWeightage": "30"
+				}
+			},
+			{
+				"messageId": "1791",
+				"messageName": "Male Message",
+				"messageDistId": "1759",
+				"cmsMessageId": "5ba9e32b77ef233174d55a84",
+				"duration": 5,
+				"messageInfo": {
+					"age": "45 to 54",
+					"ageWeightage": "40",
+					"gender": "MALE",
+					"genderWeightage": "30",
+					"weather": "Cloud",
+					"weatherWeightage": "30"
+				}
+			}
+		]
+	},
+	{
+		"playerId": "5abbcf2677ef231eb66fcd41",
+		"playerType": "",
+		"messageList": [
+			{
+				"messageId": "2001",
+				"messageName": "Male Message",
+				"messageDistId": "1779",
+				"cmsMessageId": "5ba9e32b77ef233174d55a84",
+				"duration": 5,
+				"messageInfo": {
+					"age": "0 to 22",
+					"ageWeightage": "40",
+					"gender": "MALE",
+					"genderWeightage": "30",
+					"weather": "Clear",
+					"weatherWeightage": "30"
+				}
+			},
+			{
+				"messageId": "2002",
+				"messageName": "FEMale Message",
+				"messageDistId": "1780",
+				"cmsMessageId": "5ba9e32b77ef233174d55a84",
+				"duration": 5,
+				"messageInfo": {
+					"age": "22 to 28",
+					"ageWeightage": "40",
+					"gender": "FEMALE",
+					"genderWeightage": "30",
+					"weather": "Clear",
+					"weatherWeightage": "30"
+				}
+			},
+			{
+				"messageId": "2003",
+				"messageName": "FEMale Message",
+				"messageDistId": "1751",
+				"cmsMessageId": "5ba9e32b77ef233174d55a84",
+				"duration": 5,
+				"messageInfo": {
+					"age": "28 to 35",
+					"ageWeightage": "40",
+					"gender": "FEMALE",
+					"genderWeightage": "30",
+					"weather": "Clear",
+					"weatherWeightage": "30"
+				}
+			},
+			{
+				"messageId": "2004",
+				"messageName": "Male Message",
+				"messageDistId": "1756",
+				"cmsMessageId": "5ba9e32b77ef233174d55a84",
+				"duration": 5,
+				"messageInfo": {
+					"age": "35 to 45",
+					"ageWeightage": "40",
+					"gender": "MALE",
+					"genderWeightage": "30",
+					"weather": "Clear",
+					"weatherWeightage": "30"
+				}
+			},
+			{
+				"messageId": "2005",
+				"messageName": "Male Message",
+				"messageDistId": "1759",
+				"cmsMessageId": "5ba9e32b77ef233174d55a84",
+				"duration": 5,
+				"messageInfo": {
+					"age": "45 to 54",
+					"ageWeightage": "40",
+					"gender": "MALE",
+					"genderWeightage": "30",
+					"weather": "Cloud",
+					"weatherWeightage": "30"
+				}
+			}
+		]
+	}
+]

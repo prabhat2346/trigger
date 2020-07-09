@@ -1,0 +1,42 @@
+[
+	{
+		"name": "flowers-background-butterflies-beautiful-87452",
+		"id": 47,
+		"mediaType": "media",
+		"duration": 7000,
+		"isTrigger": false,
+		"loops": 1
+	},
+	{
+		"name": "F-22-27_1",
+		"id": 59,
+		"mediaType": "media",
+		"duration": 15000,
+		"isTrigger": false,
+		"loops": 1
+	},
+	{
+		"name": "M-28-34_1(3)",
+		"id": 67,
+		"mediaType": "media",
+		"duration": 15000,
+		"isTrigger": false,
+		"loops": 1
+	},
+	{
+		"name": "F-22-27_2(2)",
+		"id": 68,
+		"mediaType": "media",
+		"duration": 15000,
+		"isTrigger": false,
+		"loops": 1
+	},
+	{
+		"name": "M-28-34_2(1)",
+		"id": 70,
+		"mediaType": "media",
+		"duration": 15000,
+		"isTrigger": false,
+		"loops": 1
+	}
+]

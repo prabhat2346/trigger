@@ -1,0 +1,6 @@
+(defglobal ?*MaxVal* = 0.0)
+   
+(defglobal ?*TriggerMsg* = "Default")
+
+(deffunction max1 (?a ?b ) (if( > ?b ?*MaxVal*) then (bind ?*TriggerMsg* ?a) (bind ?*MaxVal* ?b)))
+

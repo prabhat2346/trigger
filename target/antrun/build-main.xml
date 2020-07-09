@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>Displaying version for latest commit</echo>
+  <echo>Revsion Number: ${revision}</echo>
+</target>
+</project>
