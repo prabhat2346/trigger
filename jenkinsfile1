@@ -63,24 +63,6 @@ node('master'){
 		stage('SCM') {
 			checkout scm
 			}
-
-		
-
-		stage('Unit Test') {
-				try{
-				sh """
-				cd ./trigger
-				mvn test > test.log
-				"""
-			}
-			catch(e) {		//If Unit Testing failed. Then sending mail to the Developer and DevOps Team.
-				def logs = readFile('test.log')
-				subject= "${currentBuild.projectName} - Unit Test # FAILED! for ${environment}"
-				body= "Hi there,\n\nPlease find the below logs:\n\n${logs}\n\nRegards,\nALP Devops Team"
-				send_mail(subject, body)
-				error('Failed to execute test cases'+e.toString())
-			}
-		}
 		
 		//Build & Push process for UAT Environment.
     stage('Build & Push on ${environment}') {
