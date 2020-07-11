@@ -14,10 +14,8 @@ node('master'){
 		def imageTag=""
 		def imagePostfix=""
 		def dockerRegistry=""
-		def fileName=""
 		def dockerCredential=""
 		def servicePrincipal=""
-		def deploymentDataDir=""
 
 		def lastPod = 0
 		
@@ -30,28 +28,22 @@ node('master'){
 		    imageTag=env.UAT_IMAGE_TAG 
 		    imagePostfix="uat"
 		    dockerRegistry=env.uatDockerRegistry
-		    fileName="uat-build.log"
 		    dockerCredential="docker-uat"
 		    servicePrincipal="sp-uat"
-		    deploymentDataDir=env.uatDeploymentDataDir
 		    break
 		  case "stg":
 		    imageTag=env.STG_IMAGE_TAG
 		    imagePostfix="stg"
 		    dockerRegistry=env.stgDockerRegistry
-		    fileName="stg-build.log"
 		    dockerCredential="docker-stg"
 		    servicePrincipal="sp-stg"
-		    deploymentDataDir=env.stgDeploymentDataDir
 		    break
 		  case "prd":
 		    imageTag=env.PRD_IMAGE_TAG
 		    imagePostfix="prd"
 		    dockerRegistry=env.prdDockerRegistry
-		    fileName="prd-build.log"
 		    dockerCredential="docker-prd"
 		    servicePrincipal="sp-prd"
-		    deploymentDataDir=env.prdDeploymentDataDir
 		    break
 		  default:
 		    error("Please provide a currect environment")
@@ -72,7 +64,7 @@ node('master'){
 			//Building and creating Docker Image for UAT Environment while capturing the logs in uat-build.log.
 			sh"""
 			cd ./trigger
-			mvn clean install -DskipTests  "-Dimage.active.profile=${active_profile}" "-Ddocker.image.prefix=${dockerRegistry}"  dockerfile:build > ${fileName}
+			mvn clean install -DskipTests  "-Dimage.active.profile=${active_profile}" "-Ddocker.image.prefix=${dockerRegistry}"  dockerfile:build
 			"""
 			//reading version number from properties file.
 			script {
